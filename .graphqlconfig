@@ -1,0 +1,24 @@
+{
+  "name": "Untitled GraphQL Schema",
+  "projects": {
+    "hello-definition": {
+      "schemaPath": "src/hello/types/hello.graphql"
+    },
+    "link-definition:": {
+      "includes": [
+        "src/link/**"
+      ]
+    }
+  },
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://localhost:4000/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

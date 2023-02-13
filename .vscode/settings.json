@@ -1,0 +1,10 @@
+{
+  "eslint.workingDirectories": [
+    "."
+  ],
+  "prettier.prettierPath": "node_modules/prettier",
+  "prettier.configFile": ".prettierrc.json",
+  "cSpell.words": [
+    "pino"
+  ],
+}
